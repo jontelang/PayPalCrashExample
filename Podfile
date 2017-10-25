@@ -5,8 +5,9 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'PayPalCrashExample' do
-    pod 'PayPal-iOS-SDK'
-    pod 'Braintree'
-    pod 'Braintree/Apple-Pay'
+    pod 'PayPal-iOS-SDK', '2.18.0'
+    
+    pod 'Braintree', '4.9.4' # ok
+    # pod 'Braintree', '4.7.0' # crash
 end
 

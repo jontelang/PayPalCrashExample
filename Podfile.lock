@@ -4,8 +4,6 @@ PODS:
     - Braintree/Core (= 4.9.4)
     - Braintree/PayPal (= 4.9.4)
     - Braintree/UI (= 4.9.4)
-  - Braintree/Apple-Pay (4.9.4):
-    - Braintree/Core
   - Braintree/Card (4.9.4):
     - Braintree/Core
   - Braintree/Core (4.9.4)
@@ -32,15 +30,14 @@ PODS:
   - PayPal-iOS-SDK/Core (2.18.0)
 
 DEPENDENCIES:
-  - Braintree
-  - Braintree/Apple-Pay
-  - PayPal-iOS-SDK
+  - Braintree (= 4.9.4)
+  - PayPal-iOS-SDK (= 2.18.0)
 
 SPEC CHECKSUMS:
   Braintree: de7e58b8df95bf6514813cbc510578e3737b1c3b
   CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   PayPal-iOS-SDK: 3fc74982a68d54eeaf39e09f507f279dc2291860
 
-PODFILE CHECKSUM: a8d44ee659373f96e859ee3eadfbe64d99edf0f4
+PODFILE CHECKSUM: e59b3a6c3ed80b5abbed66e378d0ddfb848c64d5
 
 COCOAPODS: 1.2.0

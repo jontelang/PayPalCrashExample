@@ -1,0 +1,46 @@
+PODS:
+  - Braintree (4.7.0):
+    - Braintree/Card (= 4.7.0)
+    - Braintree/Core (= 4.7.0)
+    - Braintree/PayPal (= 4.7.0)
+    - Braintree/UI (= 4.7.0)
+  - Braintree/Apple-Pay (4.7.0):
+    - Braintree/Core
+  - Braintree/Card (4.7.0):
+    - Braintree/Core
+  - Braintree/Core (4.7.0)
+  - Braintree/PayPal (4.7.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.7.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.7.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.7.0)
+  - Braintree/UI (4.7.0):
+    - Braintree/Card
+    - Braintree/Core
+  - CardIO (5.4.1)
+  - PayPal-iOS-SDK (2.18.0):
+    - PayPal-iOS-SDK/CardIO (= 2.18.0)
+    - PayPal-iOS-SDK/Core (= 2.18.0)
+  - PayPal-iOS-SDK/CardIO (2.18.0):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.0)
+
+DEPENDENCIES:
+  - Braintree (= 4.7.0)
+  - Braintree/Apple-Pay (= 4.7.0)
+  - PayPal-iOS-SDK
+
+SPEC CHECKSUMS:
+  Braintree: 2d53c805e93a5830a4359a757be50fc0f25392a9
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  PayPal-iOS-SDK: 3fc74982a68d54eeaf39e09f507f279dc2291860
+
+PODFILE CHECKSUM: 3c2bf553a6fcf122db78ccb897da0f7b7ce25f27
+
+COCOAPODS: 1.2.0

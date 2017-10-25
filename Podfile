@@ -6,7 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'PayPalCrashExample' do
     pod 'PayPal-iOS-SDK'
-    pod 'Braintree', '4.7.0'
-    pod 'Braintree/Apple-Pay', '4.7.0'
+    pod 'Braintree'
+    pod 'Braintree/Apple-Pay'
 end
 
